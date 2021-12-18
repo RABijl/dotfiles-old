@@ -15,8 +15,10 @@ PS1='[\u@\h \W]\$ '
 eval "$(thefuck --alias)"
 
 # ssh
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/github
+if [ -z "$SSH_AUTH_SOCK" ] ; then
+	eval "$(ssh-agent -s)" > /dev/null
+	ssh-add ~/.ssh/github  > /dev/null 2> /dev/null
+fi
 
 mkcd () {
  mkdir "$1"
