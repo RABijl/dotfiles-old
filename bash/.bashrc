@@ -14,6 +14,10 @@ PS1='[\u@\h \W]\$ '
 # fuck program
 eval "$(thefuck --alias)"
 
+# ssh
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/github
+
 mkcd () {
  mkdir "$1"
  cd "$1"
