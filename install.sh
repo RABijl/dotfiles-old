@@ -22,3 +22,7 @@ ln -sfnv "$execution_dir/kitty/" ~/.config/
 
 # starship prompt
 ln -sfnv "$execution_dir/starship/starship.toml" ~/.config/
+
+# fontconfig
+# for emojis kde dolphin
+ln -sfnv "$execution_dir/fontconfig" ~/.config/
