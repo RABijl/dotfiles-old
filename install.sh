@@ -20,4 +20,5 @@ ln -sfnv "$execution_dir/bash/.bash_profile" ~/
 # kitty configs
 ln -sfnv "$execution_dir/kitty/" ~/.config/
 
-
+# starship prompt
+ln -sfnv "$execution_dir/starship/starship.toml" ~/.config/
