@@ -1,10 +1,10 @@
 [character]
-success_symbol = "[](bold #1793d1)"
+success_symbol = "[:](bold #1793d1)"
 #error_symbol = "[](bold red)"
-error_symbol = "[✗](bold red) "
+error_symbol = "[✗:](bold red) "
 
 [directory]
-truncation_symbol = ""
+truncation_symbol = "≡"
 truncation_length = 5
 
 [directory.substitutions]
