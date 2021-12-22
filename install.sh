@@ -26,3 +26,7 @@ ln -sfnv "$execution_dir/starship/starship.toml" ~/.config/
 # fontconfig
 # for emojis kde dolphin
 ln -sfnv "$execution_dir/fontconfig" ~/.config/
+
+# nano
+# enable mouse support in nano
+ln -sfnv "$execution_dir/nano/.nanorc" ~/
