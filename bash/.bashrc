@@ -41,3 +41,8 @@ alias icat="kitty +kitten icat"
 
 #starship
 eval "$(starship init bash)"
+
+
+# fzf
+#export FZF_COMPLETION_TRIGGER=
+source /usr/share/fzf/completion.bash
