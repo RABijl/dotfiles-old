@@ -46,3 +46,5 @@ eval "$(starship init bash)"
 # fzf
 #export FZF_COMPLETION_TRIGGER=
 source /usr/share/fzf/completion.bash
+source /usr/share/fzf/key-bindings.bash
+export FZF_COMPLETION_OPTS='--border --info inline --layout reverse'
