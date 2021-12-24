@@ -2,6 +2,11 @@
 # ~/.bashrc
 #
 
+# bash history size
+HISTSIZE=500
+# create a large file to look in if not in history command
+HISTFILESIZE=50000
+
 ## find command using pkgfile program 
 source /usr/share/doc/pkgfile/command-not-found.bash
 
@@ -20,6 +25,7 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
 	ssh-add ~/.ssh/github  > /dev/null 2> /dev/null
 fi
 
+# make a directory and cd into it in one go
 mkcd () {
  mkdir "$1"
  cd "$1"
